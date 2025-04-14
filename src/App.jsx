@@ -4,7 +4,7 @@ import ShowcaseSection from "./Components/Sections/ShowcaseSection";
 
 import LogoSection from "./Components/Sections/LogoSection";
 import FeaturesCards from "./Components/Sections/FeaturesCards";
-import Navbar from "./Components/Navbar";
+import Navbar from "./Components/NavBar";
 
 const App =()=>{
     return(
