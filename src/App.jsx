@@ -2,7 +2,8 @@ import React from "react";
 import Hero from "./Components/Sections/Hero";
 import ShowcaseSection from "./Components/Sections/ShowcaseSection";
 import Navbar from "./Components/Navbar";
-import LogoSection from "./Components/LogoSection";
+import LogoSection from "./Components/Sections/LogoSection";
+import FeaturesCards from "./Components/Sections/FeaturesCards";
 
 const App =()=>{
     return(
@@ -11,6 +12,7 @@ const App =()=>{
     <Hero/>
     <ShowcaseSection/>
     <LogoSection/>
+    <FeaturesCards/>
     </>
     );
 }
