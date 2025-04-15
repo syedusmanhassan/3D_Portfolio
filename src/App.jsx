@@ -4,6 +4,7 @@ import ShowcaseSection from "./Components/Sections/ShowcaseSection";
 import LogoSection from "./Components/Sections/LogoSection";
 import FeaturesCards from "./Components/Sections/FeaturesCards";
 import Navbar from "./Components/NavBar";
+import ExperienceSection from "./Components/Sections/ExperienceSection";
 
 const App =()=>{
     return(
@@ -13,6 +14,7 @@ const App =()=>{
     <ShowcaseSection/>
     <LogoSection/>
     <FeaturesCards/>
+    <ExperienceSection/>
     </>
     );
 }
