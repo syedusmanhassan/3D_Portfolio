@@ -5,6 +5,7 @@ import LogoSection from "./Components/Sections/LogoSection";
 import FeaturesCards from "./Components/Sections/FeaturesCards";
 import Navbar from "./Components/NavBar";
 import ExperienceSection from "./Components/Sections/ExperienceSection";
+import TechStack from "./Components/Sections/TechStack";
 
 const App =()=>{
     return(
@@ -15,6 +16,7 @@ const App =()=>{
     <LogoSection/>
     <FeaturesCards/>
     <ExperienceSection/>
+    <TechStack/>
     </>
     );
 }
