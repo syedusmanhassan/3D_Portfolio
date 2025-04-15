@@ -7,6 +7,7 @@ import Navbar from "./Components/NavBar";
 import ExperienceSection from "./Components/Sections/ExperienceSection";
 import TechStack from "./Components/Sections/TechStack";
 import Testimonials from "./Components/Sections/Testimonials"
+import Contact from "./Components/Sections/Contact";
 
 const App =()=>{
     return(
@@ -19,6 +20,7 @@ const App =()=>{
     <ExperienceSection/>
     <TechStack/>
     <Testimonials/>
+    <Contact/>
     </>
     );
 }
